@@ -361,7 +361,7 @@ def checkGameOver(app):
         app.gameOver = True
         if app.player1Health == 0 or checkOffMap(app.player1X,app.player1Y):
             app.player0Won = True
-        elif app.player0Health == 0 or checkOffMap(app.player0X,app.player1X):
+        elif app.player0Health == 0 or checkOffMap(app.player0X,app.playeroy0Y):
             app.player1Won = True
 
 def checkOffMap(x,y):
